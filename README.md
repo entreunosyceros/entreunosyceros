@@ -1,4 +1,8 @@
-# ⚡ entreunosyceros
+<p>
+<div align="center">
+  <img width="100%" height="auto" alt="logo-darktheme" src="https://github.com/user-attachments/assets/8c6d3837-f1f4-4b95-a261-7ec44bacbd45" />
+</div>
+</p>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4200&pause=1200&color=00FF41&background=000000&center=true&vCenter=true&width=980&height=120&lines=mis+cosas;Automatizo+cosas+%C3%BAtiles+para+mi+y+mis+cosas;Menos+meetings%2C+m%C3%A1s+scripts;Hago+auditor%C3%ADas+y+seguridad+sin+humo;Construyo+herramientas+cuando+no+las+encuentro;Rompo+cosas+para+entenderlas;Uso+Python+Bash+Docker+sin+magia;Uso+más+Terminal+y+%3E+interfaces+bonitas;Si+funciona...+lo+optimizo;Si+no+funciona...+lo+optimizo+también+para+que+funcione+mejor"  />
@@ -9,12 +13,6 @@
 ## 🧠 Sobre mí: Freelance y desarrollador de cosas para todo el que lo pida
 
 Esto tan solo es un proyecto que empecé allá por el 2008 como un blog personal, y que tras diferentes épocas ha terminado siendo **entreunosyceros.net**. He colaborado con diferentes personas y empresas durante el camino, mientras he ido aprendiendo diferentes lenguajes, buscando soluciones a los problemas que los usuarios nos podemos encontrar en nuestro día a día. 
-
-<p>
-<div align="center">
-  <img width="100%" height="auto" alt="logo-darktheme" src="https://github.com/user-attachments/assets/8c6d3837-f1f4-4b95-a261-7ec44bacbd45" />
-</div>
-</p>
 
 > La máxima de este proyecto es: si se puede hacer de forma sencilla, ¿por qué hacerlo complicado?
 
