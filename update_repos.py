@@ -25,9 +25,9 @@ try:
     
     # 2. Construir la cabecera de la tabla con saltos de línea de seguridad (\n)
     table_lines = [
-        "",  # Línea en blanco antes de la tabla (CRUCIAL para GitHub)
-        '| Proyecto | Tecnología | Descripción |',
-        '| :--- | :---: | :--- |'
+        "",
+        "| Proyecto | Tecnología | Descripción |",
+        "| :--- | :---: | :--- |"
     ]
     
     for repo in repos:
