@@ -1,6 +1,6 @@
 import requests
+import os
 
-# Diccionario completo con tus tecnologías
 LANG_EMOJIS = {
     'Python': '🐍 Python',
     'Java': '☕ Java',
@@ -19,11 +19,21 @@ LANG_EMOJIS = {
 }
 
 try:
-    # 1. Obtener datos de la API
+    # 1. Comprobar que el README existe
+    if not os.path.exists('README.md'):
+        print("❌ ERROR: No se encuentra el archivo README.md en la raíz.")
+        exit(1)
+
+    # 2. Obtener datos de la API
     url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
     repos = requests.get(url).json()
     
-    # 2. Construir la cabecera de la tabla con saltos de línea de seguridad (\n)
+    # Si la API da error de rate limit o similar
+    if isinstance(repos, dict) and "message" in repos:
+        print(f"❌ ERROR API GitHub: {repos['message']}")
+        exit(1)
+
+    # 3. Construir la tabla
     table_lines = [
         "",
         "| Proyecto | Tecnología | Descripción |",
@@ -35,20 +45,15 @@ try:
         html_url = repo['html_url']
         lang = repo.get('language')
         desc = repo['description'] if repo['description'] else 'Sin descripción.'
-        
-        # Limpieza estricta de saltos de línea para mantener las celdas alineadas
         desc = desc.replace('\n', ' ').replace('\r', '').replace('|', '\\|')
         
-        # Asignar emoji dinámico
         lang_formatted = LANG_EMOJIS.get(lang, f'💻 {lang}') if lang else '📦 Otros'
-        
-        # Añadir fila
         table_lines.append(f'| [**{name}**]({html_url}) | {lang_formatted} | {desc} |')
     
-    table_lines.append("")  # Línea en blanco después de la tabla
+    table_lines.append("")
     content_string = '\n'.join(table_lines)
 
-    # 3. Leer y reemplazar en el README
+    # 4. Leer y reemplazar
     with open('README.md', 'r', encoding='utf-8') as f:
         readme = f.read()
     
@@ -63,9 +68,11 @@ try:
         
         with open('README.md', 'w', encoding='utf-8') as f:
             f.write(new_readme)
-        print("README actualizado con éxito.")
+        print("✅ ÉXITO: README.md modificado correctamente.")
     else:
-        print("Error: No se encontraron las etiquetas en el README.md")
+        print("❌ ERROR: Las etiquetas ocultas no coinciden.")
+        print(f"¿Existe '{start_tag}' en el archivo?: {start_tag in readme}")
+        print(f"¿Existe '{end_tag}' en el archivo?: {end_tag in readme}")
 
 except Exception as e:
-    print(f"Ocurrió un error durante la ejecución: {e}")
+    print(f"❌ Ocurrió una excepción: {e}")
