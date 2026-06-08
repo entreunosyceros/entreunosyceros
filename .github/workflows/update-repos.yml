@@ -5,14 +5,9 @@ on:
     - cron: '0 0 * * *' # Cada 24 horas
   workflow_dispatch: # Ejecución manual
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v4.2.2
@@ -30,26 +25,41 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -c "
-          import requests, re
+          import requests
 
+          # 1. Obtener los repositorios desde la API
           url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
           repos = requests.get(url).json()
           
-          lines = []
+          lines_to_inject = []
           for repo in repos:
               desc = repo['description'] if repo['description'] else 'Sin descripción.'
-              lines.append(f\"* [**{repo['name']}**]({repo['html_url']}) - {desc}\")
+              lines_to_inject.append(f\"* [**{repo['name']}**]({repo['html_url']}) - {desc}\n\")
           
-          content = '\n'.join(lines)
-          
+          content_string = \"\".join(lines_to_inject)
+
+          # 2. Leer el README línea por línea de forma segura
           with open('README.md', 'r', encoding='utf-8') as f:
-              readme = f.read()
+              readme_lines = f.readlines()
           
-          pattern = r'()(.*?)()'
-          updated_readme = re.sub(pattern, f'\\1\n{content}\n\\3', readme, flags=re.DOTALL)
+          new_readme = []
+          inside_section = False
           
+          for line in readme_lines:
+              if '' in line:
+                  new_readme.append(line)
+                  new_readme.append(content_string)
+                  inside_section = True
+                  continue
+              if '' in line:
+                  inside_section = False
+              
+              if not inside_section:
+                  new_readme.append(line)
+          
+          # 3. Guardar el resultado blindado
           with open('README.md', 'w', encoding='utf-8') as f:
-              f.write(updated_readme)
+              f.writelines(new_readme)
           "
 
       - name: Hacer Commit y Push de los cambios
