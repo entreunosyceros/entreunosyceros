@@ -24,14 +24,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python -c "
+          python -c """
           import requests
 
           # 1. Obtener datos limpios de la API de GitHub
           url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
           repos = requests.get(url).json()
           
-          # Inicializamos lines directamente con la estructura de la cabecera de la tabla
+          # Inicializamos la estructura de la tabla
           lines = [
               '',
               '| Proyecto | Descripción |',
@@ -42,12 +42,13 @@ jobs:
               desc = repo['description'] if repo['description'] else 'Sin descripción.'
               # Limpiamos posibles saltos de línea molestos de las descripciones
               desc = desc.replace('\n', ' ').replace('\r', '')
-              
-              # Escapamos el carácter '|' por si acaso viene en la descripción de la API, para no romper la tabla
               desc = desc.replace('|', '\\|')
               
-              # Guardamos la fila en formato de tabla Markdown
-              lines.append(f'| [**{repo[\"name\"]}**]({repo[\"html_url\"]}) | {desc} |')
+              # Al usar comillas triples al principio, aquí podemos usar comillas simples limpias
+              name = repo['name']
+              html_url = repo['html_url']
+              
+              lines.append(f'| [**{name}**]({html_url}) | {desc} |')
           
           lines.append('')
           content_string = '\n'.join(lines)
@@ -64,14 +65,13 @@ jobs:
               before_part = readme.split(start_tag)[0]
               after_part = readme.split(end_tag)[1]
               
-              # Reconstruimos el archivo uniendo las piezas de forma aislada
               new_readme = f'{before_part}{start_tag}{content_string}{end_tag}{after_part}'
               
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
           else:
               print('Error: No se encontraron las etiquetas de bloque en el README.md')
-          "
+          """
 
       - name: Hacer Commit y Push de los cambios
         run: |
