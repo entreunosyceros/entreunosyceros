@@ -10,107 +10,124 @@
 
 ---
 
-## 🧠 Sobre mí: Freelance y desarrollador de cosas para todo el que lo pida
+# 👋 Hola
 
-Esto tan solo es un proyecto que empecé allá por el 2008 como un blog personal, y que tras diferentes épocas ha terminado siendo **entreunosyceros.net**. He colaborado con diferentes personas y empresas durante el camino, mientras he ido aprendiendo diferentes lenguajes, buscando soluciones a los problemas que los usuarios nos podemos encontrar en nuestro día a día. 
+Soy el creador de **entreunosyceros.net**, un proyecto personal que comenzó en 2008 como un simple blog y que con el tiempo terminó convirtiéndose en un espacio donde compartir herramientas, automatizaciones, soluciones técnicas y todo aquello que me ha ayudado a resolver problemas reales.
 
-> La máxima de este proyecto es: si se puede hacer de forma sencilla, ¿por qué hacerlo complicado?
+He colaborado con personas, empresas y proyectos de distintos ámbitos mientras aprendía nuevas tecnologías y buscaba formas más eficientes de hacer las cosas.
 
-Aquí no vas a encontrar:
-
-* arquitecturas infladas
-* 14 frameworks para hacer un CRUD
-* ni buzzwords recicladas de LinkedIn
-
-Aquí hay otra cosa:
-
-> código que me ha funcionado, muchos comentarios, herramientas que sirven para ciertos propósitos y soluciones que ahorran tiempo.
-
+> Si algo puede hacerse de forma sencilla, normalmente es la opción que intento elegir.
 
 ---
 
-## 🚀 Qué hago (de verdad)
+## 🚀 Qué hago
 
-* 🐍 Automatizo procesos que la gente sigue haciendo a mano
-* 🔐 Encuentro cosas que no deberían estar expuestas
-* 🧰 Construyo herramientas cuando no existen (CLI / TUI)
-* 📡 Juego con streams, datos y APIs hasta que hacen lo que necesito
-* ⚙️ Backend sin magia innecesaria
-
----
-
-## 🔥 Filosofía
-
-> Si necesitas 3 servicios, 2 capas y un máster para entender tu propio código… algo va mal.
-
-* Menos abstracción absurda
-* Menos dependencia por moda
-* Más control
-* Más saber qué está pasando realmente
+* 🐍 Automatización de tareas y procesos
+* ☕ Desarrollo de aplicaciones y utilidades en Java
+* ⚙️ Herramientas CLI y TUI para Linux
+* 🔐 Auditoría y análisis de seguridad
+* 📡 Integración de APIs y servicios
+* 🐳 Contenedorización y despliegue con Docker
+* 🧰 Desarrollo de herramientas a medida cuando no existe una solución adecuada
 
 ---
 
-## 🧨 Proyectos
+## 🧠 Filosofía
 
-No todo está bonito. Pero todo hace algo que me ha resultado útil en algún momento.
+Me gustan las soluciones que:
 
-👉 Si quieres ver código real, no demos, date una vuelta por [los repositorios](https://github.com/entreunosyceros?tab=repositories)
+* Resuelven problemas reales
+* Son fáciles de entender
+* Se pueden mantener dentro de seis meses
+* No requieren veinte dependencias para funcionar
+
+Intento priorizar:
+
+* Simplicidad
+* Control
+* Rendimiento razonable
+* Código legible
+* Automatización
 
 ---
 
-## ⚠️ Disclaimer
+## ⭐ Proyectos destacados
 
-No optimizo para “quedar bien”. Optimizo para que funcione.
+### 🔥 Forja de Ejercicios
 
-Si además queda elegante… será pura casualidad.
+Generador de ejercicios y exámenes técnicos orientado a formación profesional y certificaciones.
+
+### 🐳 Herramientas Docker
+
+Scripts y utilidades para simplificar despliegues, mantenimiento y automatización de entornos.
+
+### ☕ Aplicaciones Java
+
+Proyectos centrados en procesamiento de datos, automatización y herramientas de escritorio.
+
+### ⚡ Utilidades en C++
+
+Herramientas de consola orientadas a rendimiento y control del sistema.
+
+### 🐍 Automatizaciones Python
+
+Scripts y aplicaciones para eliminar tareas repetitivas y ahorrar tiempo.
 
 ---
 
+## 🧭 Tecnologías con las que trabajo
 
-### 🛠️ Mis herramientas para "complicarme" el día a día:
+Durante estos años he terminado utilizando tecnologías muy distintas según las necesidades de cada proyecto.
 
-#### **Desarrollo & Backend**
+### Desarrollo & Backend
+
 [![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
-[![Php](https://img.shields.io/badge/PHP-blue?style=for-the-badge&logo=PHP&logoColor=white&labelColor=101010)]()
-[![Go](https://img.shields.io/badge/go-black?style=for-the-badge&logo=go&logoColor=blue&labelColor=101010)]()
-[![Bash shell](https://img.shields.io/badge/gnubash-red?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=101010)]()
-[![Json](https://img.shields.io/badge/json-silver?style=for-the-badge&logo=json&logoColor=blue&labelColor=101010)]()
+[![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=101010)]()
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=101010)]()
+[![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge&logo=php&logoColor=white&labelColor=101010)]()
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=101010)]()
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=101010)]()
+[![JSON](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=json&logoColor=white&labelColor=101010)]()
 
-#### **Frontend & Web**
-[![JavaScript](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
-[![HTML5](https://img.shields.io/badge/html5-aqua?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]()
-[![CSS3](https://img.shields.io/badge/css3-blue?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
-[![Jquery](https://img.shields.io/badge/jquery-black?style=for-the-badge&logo=jquery&logoColor=white&labelColor=101010)]()
+### Frontend & Web
 
-#### **CMS & Bases de Datos**
-[![Wordpress](https://img.shields.io/badge/wordpress-blue?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=101010)]()
-[![Prestashop](https://img.shields.io/badge/prestashop-pink?style=for-the-badge&logo=prestashop&logoColor=white&labelColor=101010)]()
-[![MySQL](https://img.shields.io/badge/mysql-silver?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
+[![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white&labelColor=101010)]()
 
-#### **Sistemas & Entornos**
-[![GnuLinux](https://img.shields.io/badge/LINUX-cian?style=for-the-badge&logo=LINUX&logoColor=white&labelColor=101010)]()
-[![Gnome](https://img.shields.io/badge/gnome-black?style=for-the-badge&logo=gnome&logoColor=white&labelColor=101010)]()
-[![Windows](https://img.shields.io/badge/windows-blue?style=for-the-badge&logo=windows&logoColor=white&labelColor=101010)]()
-[![Android](https://img.shields.io/badge/android-green?style=for-the-badge&logo=android&logoColor=white&labelColor=101010)]()
-[![Kodi](https://img.shields.io/badge/kodi-blue?style=for-the-badge&logo=kodi&logoColor=white&labelColor=101010)]()
+### CMS & Bases de Datos
 
-#### **DevOps, Gestión & Otros**
-[![Git](https://img.shields.io/badge/git-black?style=for-the-badge&logo=git&logoColor=white&labelColor=101010)]()
-[![NPM](https://img.shields.io/badge/npm-green?style=for-the-badge&logo=npm&logoColor=blue&labelColor=101010)]()
-[![Apache](https://img.shields.io/badge/apache-red?style=for-the-badge&logo=apache&logoColor=white&labelColor=101010)]()
-[![Docker](https://img.shields.io/badge/docker-blue?style=for-the-badge&logo=docker&logoColor=white&labelColor=101010)]()
-[![Markdown](https://img.shields.io/badge/markdown-black?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)]()
+[![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=101010)]()
+[![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white&labelColor=101010)]()
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)]()
 
-*(y sí, también Googleo cosas… como todo el mundo)*
+### Sistemas & Entornos
+
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=101010)]()
+[![GNOME](https://img.shields.io/badge/GNOME-4A86CF?style=for-the-badge&logo=gnome&logoColor=white&labelColor=101010)]()
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=101010)]()
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=101010)]()
+
+### DevOps & Herramientas
+
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=101010)]()
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=101010)]()
+[![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white&labelColor=101010)]()
+[![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=101010)]()
+[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)]()
+
+*(y sí, sigo buscando cosas en Google cuando toca)*
 
 ---
 
 ## 🧩 Actualmente
 
-* Construyendo herramientas tipo terminal que hacen el trabajo sucio
-* Automatizando flujos que nadie quiere tocar
-* Probando cosas que probablemente rompan algo
-* Haciendo que Docker no me odie (a veces funciona)
+* Construyendo herramientas de terminal
+* Mejorando automatizaciones existentes
+* Experimentando con Java y C++
+* Manteniendo proyectos que sigo utilizando a diario
+* Aprendiendo tecnologías nuevas cuando realmente aportan algo
 
 ---
 
@@ -136,7 +153,7 @@ Puedes visitar mis cosas y alguna más en:
 </p>
 
 ![entreunosyceros](https://github.com/sapoclay/sapoclay/assets/6242827/7749f902-321e-4fdd-984f-fc50e6cfee43)
-<div align="center">Desde 2008 trasteando en entreunosyceros.net aprendiendo a base de romper cosas (y arreglarlas después) </div>
+<div align="center">Desde 2008 trasteando en entreunosyceros.net aprendiendo a base de romper cosas (...y arreglarlas después) </div>
 
 
 ---
