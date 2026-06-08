@@ -50,11 +50,10 @@ Intento priorizar:
 * Automatización
 
 ---
-## 🧭 Últimos repositorios creados o modificados
+## 🧭 Últimos repositorios
 
-<!-- REPOS-START -->
-*Cargando últimos repositorios...*
-<!-- REPOS-END -->
+<!-- START_SECTION:github-stats -->
+<!-- END_SECTION:github-stats -->
 
 ---
 
