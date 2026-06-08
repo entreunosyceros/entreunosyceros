@@ -3,15 +3,15 @@ name: Actualizar Últimos Repositorios
 on:
   schedule:
     - cron: '0 0 * * *' # Cada 24 horas
-  workflow_dispatch: # Para activarlo manualmente
-
-# Forzamos a que las Actions usen Node 24 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+  workflow_dispatch: # Ejecución manual
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    # Colocamos aquí la variable para que afecte directamente a los runners de las acciones
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+    
     steps:
       - name: Checkout del repositorio
         uses: actions/checkout@v4
@@ -19,7 +19,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' # <- Corregido
+          python-version: '3.10'
 
       - name: Instalar dependencias
         run: pip install requests
@@ -44,7 +44,6 @@ jobs:
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
           
-          # Buscamos las etiquetas exactas que pusiste en tu archivo
           pattern = r'(<!-- START_SECTION:github-stats -->)(.*?)(<!-- END_SECTION:github-stats -->)'
           updated_readme = re.sub(pattern, f'\\1\n{content}\n\\3', readme, flags=re.DOTALL)
           
