@@ -50,28 +50,11 @@ Intento priorizar:
 * Automatización
 
 ---
+## 🧭 Últimos repositorios creados o modificados
 
-## ⭐ Proyectos destacados
-
-### 🔥 Forja de Ejercicios
-
-Generador de ejercicios y exámenes técnicos orientado a formación profesional y certificaciones.
-
-### 🐳 Herramientas Docker
-
-Scripts y utilidades para simplificar despliegues, mantenimiento y automatización de entornos.
-
-### ☕ Aplicaciones Java
-
-Proyectos centrados en procesamiento de datos, automatización y herramientas de escritorio.
-
-### ⚡ Utilidades en C++
-
-Herramientas de consola orientadas a rendimiento y control del sistema.
-
-### 🐍 Automatizaciones Python
-
-Scripts y aplicaciones para eliminar tareas repetitivas y ahorrar tiempo.
+<!-- REPOS-START -->
+*Cargando últimos repositorios...*
+<!-- REPOS-END -->
 
 ---
 
@@ -81,40 +64,41 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 
 ### Desarrollo & Backend
 
-[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=python)[![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=101010)]()
-[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=101010)]()
-[![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge&logo=php&logoColor=white&labelColor=101010)]()
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=101010)]()
-[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=101010)]()
-[![JSON](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=json&logoColor=white&labelColor=101010)]()
+[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=python)
+[![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=java)
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=c%2B%2B)
+[![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge&logo=php&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=php)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=go)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=shell)
+[![JSON](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=json&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=json)
 
 ### Frontend & Web
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]()
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
-[![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white&labelColor=101010)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=javascript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=html)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=css)
+[![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=jquery)
 
 ### CMS & Bases de datos
 
-[![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=101010)]()
-[![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white&labelColor=101010)]()
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)]()
+[![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=wordpress)
+[![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=prestashop)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=mysql)
 
 ### Sistemas & Entornos
 
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=101010)]()
-[![GNOME](https://img.shields.io/badge/GNOME-4A86CF?style=for-the-badge&logo=gnome&logoColor=white&labelColor=101010)]()
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=101010)]()
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=101010)]()
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=linux)
+[![GNOME](https://img.shields.io/badge/GNOME-4A86CF?style=for-the-badge&logo=gnome&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=gnome)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=windows)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=android)
 
 ### DevOps & Herramientas
 
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=101010)]()
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=101010)]()
-[![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white&labelColor=101010)]()
-[![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=101010)]()
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)]()
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=git)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=docker)
+[![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=apache)
+[![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=npm)
+[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=markdown)
 
 *(y sí, ... sigo buscando cosas en Google cuando toca)*
 
