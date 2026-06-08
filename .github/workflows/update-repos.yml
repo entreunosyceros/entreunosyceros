@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *' # Cada 24 horas
   workflow_dispatch: # Para activarlo manualmente
 
+# Forzamos a que las Actions usen Node 24 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -15,7 +19,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-node: '3.10'
+          python-version: '3.10' # <- Corregido
 
       - name: Instalar dependencias
         run: pip install requests
@@ -27,23 +31,20 @@ jobs:
           python -c "
           import requests, re
 
-          # Trae tus repositorios públicos ordenados por la última vez que empujaste código (pushed)
           url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
           repos = requests.get(url).json()
           
           lines = []
           for repo in repos:
-              # Formateamos cada línea: Nombre del repo (enlace) - Descripción
               desc = repo['description'] if repo['description'] else 'Sin descripción.'
               lines.append(f\"* [**{repo['name']}**]({repo['html_url']}) - {desc}\")
           
           content = '\n'.join(lines)
           
-          # Leer el README actual
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
           
-          # Reemplazar el bloque entre los comentarios
+          # Buscamos las etiquetas exactas que pusiste en tu archivo
           pattern = r'(<!-- START_SECTION:github-stats -->)(.*?)(<!-- END_SECTION:github-stats -->)'
           updated_readme = re.sub(pattern, f'\\1\n{content}\n\\3', readme, flags=re.DOTALL)
           
