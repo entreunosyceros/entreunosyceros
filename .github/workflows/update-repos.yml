@@ -70,10 +70,12 @@ jobs:
           start_tag = ''
           end_tag = ''
           
+          # Control estricto posicional: Solo modificamos si AMBAS etiquetas existen en el documento
           if start_tag in readme and end_tag in readme:
               start_index = readme.index(start_tag) + len(start_tag)
               end_index = readme.index(end_tag)
               
+              # Reconstrucción exacta manteniendo el "antes" y el "después"
               new_readme = (
                   readme[:start_index]
                   + content_string
@@ -82,9 +84,11 @@ jobs:
               
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
-              print("✅ README modificado con éxito.")
+              print("✅ README modificado correctamente en su sección correspondiente.")
           else:
-              print(f"❌ Error: No se encontraron los marcadores {start_tag} o {end_tag}")
+              print("❌ ERROR CRÍTICO: No se encontraron los marcadores en el archivo.")
+              print(f"¿Está START? -> {start_tag in readme}")
+              print(f"¿Está END? -> {end_tag in readme}")
               sys.exit(1)
           PY
 
