@@ -1,11 +1,3 @@
-## 🧭 Últimos repositorios creados o modificados
-| Proyecto | Descripción |
-| :--- | :--- |
-| [**forja-de-ejercicios**](https://github.com/entreunosyceros/forja-de-ejercicios) | La máquina de ejercicios: genera ejercicios prácticos aleatorios, permite practicar en Docker y corrige automáticamente. |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Sin descripción. |
-| [**fuGA**](https://github.com/entreunosyceros/fuGA) | Juego de evasión en terminal (C + ncurses): pájaro con gravedad, tuberías que avanzan, colisiones por rectángulos y puntuación |
-| [**terminaLndo**](https://github.com/entreunosyceros/terminaLndo) | Shell interactivo minimalista en C para aprender fork, exec, tuberías, redirección, expansiones y edición de línea con historial |
-| [**PLET**](https://github.com/entreunosyceros/PLET) | Tienda web Java para vender billetes de viajes temporales |
 <p>
 <div align="center">
   <img width="100%" height="auto" alt="logo-darktheme" src="https://github.com/user-attachments/assets/8c6d3837-f1f4-4b95-a261-7ec44bacbd45" />
@@ -13,7 +5,7 @@
 </p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4200&pause=1200&color=00FF41&background=000000&center=true&vCenter=true&width=980&height=120&lines=mis+cosas;Automatizo+cosas+%C3%BAtiles+para+mi+y+mis+cosas;Menos+meetings%2C+m%C3%A1s+scripts;Hago+auditor%C3%ADas+y+seguridad+sin+humo;Construyo+herramientas+cuando+no+las+encuentro;Rompo+cosas+para+entenderlas;Uso+Python+Bash+Docker+sin+magia;Uso+más+Terminal+y+%3E+interfaces+bonitas;Si+funciona...+lo+optimizo;Si+no+funciona...+lo+optimizo+también+para+que+funcione+mejor"  />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4200&pause=1200&color=00FF41&background=000000&center=true&vCenter=true&width=980&height=120&lines=mis+cosas;Automatizo+cosas+%C3%BAtiles+para+mi+y+mis+cosas;Menos+meetings%2C+m%C3%A1s+scripts;Hago+auditor%C3%ADas+y+seguridad+sin+humo;Construyo+herramientas+cuando+no+las+encuentro;Rompo+cosas+para+entenderlas;Uso+Python+Bash+Docker+sin+magia;Uso+más+Terminal+y+%3E+interfaces+bonitas;Si+funciona...+lo+optimizo;Si+funciona...+lo+optimizo+también+para+que+funcione+mejor"  />
 </div>
 
 ---
@@ -105,13 +97,17 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 
 ---
 
+## 🧭 Últimos repositorios creados o modificados
+
+---
+
 ## 🧩 Actualmente
 
 * Construyendo herramientas de terminal
 * Mejorando automatizaciones existentes
 * Experimentando con Java y C++
 * Manteniendo proyectos que sigo utilizando a diario
-* Aprendiendo tecnologías nuevas cuando realmente aportan algo
+* Aprendiendo tecnologías Authentication nuevas cuando realmente aportan algo
 
 ---
 
@@ -132,12 +128,7 @@ Puedes visitar mis cosas y alguna más en:
 ---
 <p align="right">
   <img src="https://github.com/sapoclay/sapoclay/assets/6242827/ed2ec40d-1975-43b4-b117-a6fb9caad312" width="100px"><br/>
- 
-
 </p>
 
 ![entreunosyceros](https://github.com/sapoclay/sapoclay/assets/6242827/7749f902-321e-4fdd-984f-fc50e6cfee43)
 <div align="center">Desde 2008 trasteando en entreunosyceros.net aprendiendo a base de romper cosas (...y arreglarlas después) </div>
-
-
----
