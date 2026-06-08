@@ -5,7 +5,6 @@ on:
     - cron: '0 0 * * *' # Cada 24 horas
   workflow_dispatch: # Ejecución manual
 
-# Permisos explícitos para que la Action pueda modificar el repositorio
 permissions:
   contents: write
 
@@ -33,7 +32,6 @@ jobs:
           import os
           import sys
 
-          # 1. Configurar la petición autenticada a la API de GitHub
           url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
           headers = {
               "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"
@@ -47,7 +45,6 @@ jobs:
               print(f"❌ Error al consultar la API de GitHub: {e}")
               sys.exit(1)
           
-          # 2. Inicializar la estructura de la tabla
           lines = [
               '',
               '| Proyecto | Descripción |',
@@ -67,15 +64,12 @@ jobs:
           lines.append('')
           content_string = '\n'.join(lines)
 
-          # 3. Leer el README completo
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
           
-          # Marcadores REALES y asignados correctamente
           start_tag = ''
           end_tag = ''
           
-          # 4. Reemplazo ultra seguro usando índices de posición para evitar fallos de duplicados
           if start_tag in readme and end_tag in readme:
               start_index = readme.index(start_tag) + len(start_tag)
               end_index = readme.index(end_tag)
@@ -88,14 +82,18 @@ jobs:
               
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
-              print("✅ README modificado con éxito usando el bloque de índices.")
+              print("✅ README modificado con éxito.")
           else:
-              print(f"❌ Error: No se encontraron los marcadores {start_tag} o {end_tag} en tu README.md")
+              print(f"❌ Error: No se encontraron los marcadores {start_tag} o {end_tag}")
               sys.exit(1)
           PY
 
-      - name: Hacer Commit y Push de los cambios
+      - name: Configurar Git de forma limpia
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "🤖 Mante
+
+      - name: Comprobar cambios y subir al repositorio
+        run: |
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Mantenimiento: Tabla de proyecto
