@@ -10,13 +10,13 @@
 
 ---
 
-# 👋 Hola
+# Hola
 
 Soy el creador de **entreunosyceros.net**, un proyecto personal que comenzó en 2008 como un simple blog y que con el tiempo terminó convirtiéndose en un espacio donde compartir herramientas, automatizaciones, soluciones técnicas y todo aquello que me ha ayudado a resolver problemas reales.
 
 He colaborado con personas, empresas y proyectos de distintos ámbitos mientras aprendía nuevas tecnologías y buscaba formas más eficientes de hacer las cosas.
 
-> Si algo puede hacerse de forma sencilla, normalmente es la opción que intento elegir.
+> Si algo puede hacerse de forma sencilla y no es necesario complicarlo ... suele ser la opción que normalmente intento elegir.
 
 ---
 
@@ -75,9 +75,9 @@ Scripts y aplicaciones para eliminar tareas repetitivas y ahorrar tiempo.
 
 ---
 
-## 🧭 Tecnologías con las que trabajo
+## 🧭 Tecnologías con las que pierdo el sueño
 
-Durante estos años he terminado utilizando tecnologías muy distintas según las necesidades de cada proyecto.
+Durante estos años he terminado utilizando tecnologías muy distintas para adaptarme a las necesidades de cada proyecto.
 
 ### Desarrollo & Backend
 
@@ -96,7 +96,7 @@ Durante estos años he terminado utilizando tecnologías muy distintas según la
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
 [![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white&labelColor=101010)]()
 
-### CMS & Bases de Datos
+### CMS & Bases de datos
 
 [![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=101010)]()
 [![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge&logo=prestashop&logoColor=white&labelColor=101010)]()
@@ -117,7 +117,7 @@ Durante estos años he terminado utilizando tecnologías muy distintas según la
 [![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=101010)]()
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)]()
 
-*(y sí, sigo buscando cosas en Google cuando toca)*
+*(y sí, ... sigo buscando cosas en Google cuando toca)*
 
 ---
 
