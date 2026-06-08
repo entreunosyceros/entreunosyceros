@@ -1,3 +1,11 @@
+
+| Proyecto | Descripción |
+| :--- | :--- |
+| [**forja-de-ejercicios**](https://github.com/entreunosyceros/forja-de-ejercicios) | La máquina de ejercicios: genera ejercicios prácticos aleatorios, permite practicar en Docker y corrige automáticamente. |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Sin descripción. |
+| [**fuGA**](https://github.com/entreunosyceros/fuGA) | Juego de evasión en terminal (C + ncurses): pájaro con gravedad, tuberías que avanzan, colisiones por rectángulos y puntuación |
+| [**terminaLndo**](https://github.com/entreunosyceros/terminaLndo) | Shell interactivo minimalista en C para aprender fork, exec, tuberías, redirección, expansiones y edición de línea con historial |
+| [**PLET**](https://github.com/entreunosyceros/PLET) | Tienda web Java para vender billetes de viajes temporales |
 <p>
 <div align="center">
   <img width="100%" height="auto" alt="logo-darktheme" src="https://github.com/user-attachments/assets/8c6d3837-f1f4-4b95-a261-7ec44bacbd45" />
