@@ -96,4 +96,6 @@ jobs:
       - name: Comprobar cambios y subir al repositorio
         run: |
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Mantenimiento: Tabla de proyecto
+          echo "Mantenimiento: Tabla de proyectos actualizada" > commit_msg.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -F commit_msg.txt && git push)
+          rm -f commit_msg.txt
