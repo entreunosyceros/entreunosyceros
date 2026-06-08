@@ -27,39 +27,38 @@ jobs:
           python -c "
           import requests
 
-          # 1. Obtener los repositorios desde la API
+          # 1. Obtener datos limpios de la API de GitHub
           url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
           repos = requests.get(url).json()
           
-          lines_to_inject = []
+          lines = []
           for repo in repos:
               desc = repo['description'] if repo['description'] else 'Sin descripción.'
-              lines_to_inject.append(f\"* [**{repo['name']}**]({repo['html_url']}) - {desc}\n\")
+              # Limpiamos posibles saltos de línea molestos de las descripciones
+              desc = desc.replace('\n', ' ').replace('\r', '')
+              lines.append(f'* [**{repo[\"name\"]}**]({repo[\"html_url\"]}) - {desc}')
           
-          content_string = \"\".join(lines_to_inject)
+          content_string = '\n' + '\n'.join(lines) + '\n'
 
-          # 2. Leer el README línea por línea de forma segura
+          # 2. Leer el README completo
           with open('README.md', 'r', encoding='utf-8') as f:
-              readme_lines = f.readlines()
+              readme = f.read()
           
-          new_readme = []
-          inside_section = False
+          # 3. Reemplazo seguro mediante split de bloques
+          start_tag = '<!-- START_SECTION:github-stats -->'
+          end_tag = '<!-- END_SECTION:github-stats -->'
           
-          for line in readme_lines:
-              if '' in line:
-                  new_readme.append(line)
-                  new_readme.append(content_string)
-                  inside_section = True
-                  continue
-              if '' in line:
-                  inside_section = False
+          if start_tag in readme and end_tag in readme:
+              before_part = readme.split(start_tag)[0]
+              after_part = readme.split(end_tag)[1]
               
-              if not inside_section:
-                  new_readme.append(line)
-          
-          # 3. Guardar el resultado blindado
-          with open('README.md', 'w', encoding='utf-8') as f:
-              f.writelines(new_readme)
+              # Reconstruimos el archivo uniendo las piezas de forma aislada
+              new_readme = f'{before_part}{start_tag}{content_string}{end_tag}{after_part}'
+              
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_readme)
+          else:
+              print('Error: No se encontraron las etiquetas de bloque en el README.md')
           "
 
       - name: Hacer Commit y Push de los cambios
