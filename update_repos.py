@@ -23,8 +23,9 @@ try:
     url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
     repos = requests.get(url).json()
     
-    # 2. Construir la cabecera de la tabla
+    # 2. Construir la cabecera de la tabla con saltos de línea de seguridad (\n)
     table_lines = [
+        "",  # Línea en blanco antes de la tabla (CRUCIAL para GitHub)
         '| Proyecto | Tecnología | Descripción |',
         '| :--- | :---: | :--- |'
     ]
@@ -35,7 +36,7 @@ try:
         lang = repo.get('language')
         desc = repo['description'] if repo['description'] else 'Sin descripción.'
         
-        # Limpieza para no romper las celdas de la tabla Markdown
+        # Limpieza estricta de saltos de línea para mantener las celdas alineadas
         desc = desc.replace('\n', ' ').replace('\r', '').replace('|', '\\|')
         
         # Asignar emoji dinámico
@@ -44,7 +45,8 @@ try:
         # Añadir fila
         table_lines.append(f'| [**{name}**]({html_url}) | {lang_formatted} | {desc} |')
     
-    content_string = '\n' + '\n'.join(table_lines) + '\n'
+    table_lines.append("")  # Línea en blanco después de la tabla
+    content_string = '\n'.join(table_lines)
 
     # 3. Leer y reemplazar en el README
     with open('README.md', 'r', encoding='utf-8') as f:
