@@ -27,42 +27,77 @@ jobs:
           python -c "
           import requests
 
-          # 1. Obtener datos limpios de la API de GitHub
+          # 1. Diccionario completo con todas tus tecnologías integradas
+          LANG_EMOJIS = {
+              # Backend & Desarrollo
+              'Python': '🐍 Python',
+              'Java': '☕ Java',
+              'C': '⚙️ C',
+              'C++': '🧪 C++',
+              'PHP': '🐘 PHP',
+              'Go': '🐹 Go',
+              'Shell': '🐚 Bash/Shell',
+              
+              # Frontend & Web
+              'JavaScript': '🌐 JavaScript',
+              'TypeScript': '📘 TypeScript',
+              'HTML': '📄 HTML5',
+              'CSS': '🎨 CSS3',
+              
+              # Formatos, Herramientas & BD (Por si GitHub los detecta como lenguaje principal)
+              'JSON': '🗂️ JSON',
+              'Markdown': '📝 Markdown',
+              'SQL': '🛢️ MySQL/SQL'
+          }
+
+          # 2. Obtener datos de la API de GitHub
           url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
           repos = requests.get(url).json()
           
-          lines = []
-          for repo in repos:
-              desc = repo['description'] if repo['description'] else 'Sin descripción.'
-              # Limpiamos posibles saltos de línea molestos de las descripciones
-              desc = desc.replace('\n', ' ').replace('\r', '')
-              lines.append(f'* [**{repo[\"name\"]}**]({repo[\"html_url\"]}) - {desc}')
+          # 3. Construir la cabecera de la tabla
+          table_lines = [
+              '| Proyecto | Tecnología | Descripción |',
+              '| :--- | :---: | :--- |'
+          ]
           
-          content_string = '\n' + '\n'.join(lines) + '\n'
+          for repo in repos:
+              name = repo['name']
+              url = repo['html_url']
+              lang = repo.get('language')
+              desc = repo['description'] if repo['description'] else 'Sin descripción.'
+              
+              # Limpieza de caracteres que rompen el diseño de tablas Markdown
+              desc = desc.replace('\n', ' ').replace('\r', '').replace('|', '\\|')
+              
+              # Asignar emoji dinámico buscando en tu ecosistema técnico
+              lang_formatted = LANG_EMOJIS.get(lang, f'💻 {lang}') if lang else '📦 Otros'
+              
+              # Añadir la fila estructurada
+              table_lines.append(f'| [**{name}**]({url}) | {lang_formatted} | {desc} |')
+          
+          content_string = '\n' + '\n'.join(table_lines) + '\n'
 
-          # 2. Leer el README completo
+          # 4. Inyección limpia mediante bloques divididos
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
           
-          # 3. Reemplazo seguro mediante split de bloques
-          start_tag = '<!-- START_SECTION:github-stats -->'
-          end_tag = '<!-- END_SECTION:github-stats -->'
+          start_tag = ''
+          end_tag = ''
           
           if start_tag in readme and end_tag in readme:
               before_part = readme.split(start_tag)[0]
               after_part = readme.split(end_tag)[1]
               
-              # Reconstruimos el archivo uniendo las piezas de forma aislada
               new_readme = f'{before_part}{start_tag}{content_string}{end_tag}{after_part}'
               
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
           else:
-              print('Error: No se encontraron las etiquetas de bloque en el README.md')
+              print('Error: No se encontraron las etiquetas en el README.md')
           "
 
       - name: Hacer Commit y Push de los cambios
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "🤖 Mantenimiento: Últimos repositorios actualizados" && git push)
+          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "🤖 Mantenimiento: Catálogo de tecnologías actualizado en tabla" && git push)
