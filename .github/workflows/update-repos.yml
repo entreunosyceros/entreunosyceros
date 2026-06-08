@@ -27,7 +27,6 @@ jobs:
           python -c "
           import requests
 
-          # Diccionario integrado
           LANG_EMOJIS = {
               'Python': '🐍 Python',
               'Java': '☕ Java',
@@ -45,41 +44,48 @@ jobs:
               'SQL': '🛢️ MySQL/SQL'
           }
 
-          url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
-          repos = requests.get(url).json()
-          
-          # Construimos la tabla directamente con saltos de línea crudos
-          table = '\n| Proyecto | Tecnología | Descripción |\n| :--- | :---: | :--- |\n'
-          for repo in repos:
-              name = repo['name']
-              u = repo['html_url']
-              lang = repo.get('language')
-              desc = repo['description'] if repo['description'] else 'Sin descripción.'
-              desc = desc.replace('\n', ' ').replace('\r', '').replace('|', '\\|')
+          try:
+              url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
+              repos = requests.get(url).json()
               
-              emoji = LANG_EMOJIS.get(lang, f'💻 {lang}') if lang else '📦 Otros'
-              table += f'| [**{name}**]({u}) | {emoji} | {desc} |\n'
-          table += '\n'
+              table = '\n| Proyecto | Tecnología | Descripción |\n| :--- | :---: | :--- |\n'
+              for repo in repos:
+                  name = repo['name']
+                  u = repo['html_url']
+                  lang = repo.get('language')
+                  desc = repo['description'] if repo['description'] else 'Sin descripción.'
+                  desc = desc.replace('\n', ' ').replace('\r', '').replace('|', '\\|')
+                  
+                  # Si el lenguaje es C++, lo renombramos internamente para evitar conflictos con el diccionario
+                  if lang == 'C++':
+                      emoji = '🧪 C++'
+                  else:
+                      emoji = LANG_EMOJIS.get(lang, f'💻 {lang}') if lang else '📦 Otros'
+                      
+                  table += f'| [**{name}**]({u}) | {emoji} | {desc} |\n'
+              table += '\n'
 
-          with open('README.md', 'r', encoding='utf-8') as f:
-              readme = f.read()
-          
-          start = ''
-          end = ''
-          
-          if start in readme and end in readme:
-              before = readme.split(start)[0]
-              after = readme.split(end)[1]
-              new_readme = before + start + table + end + after
-              with open('README.md', 'w', encoding='utf-8') as f:
-                  f.write(new_readme)
-              print('OK')
-          else:
-              print('Etiquetas no encontradas')
+              with open('README.md', 'r', encoding='utf-8') as f:
+                  readme = f.read()
+              
+              start = ''
+              end = ''
+              
+              if start in readme and end in readme:
+                  before = readme.split(start)[0]
+                  after = readme.split(end)[1]
+                  new_readme = before + start + table + end + after
+                  with open('README.md', 'w', encoding='utf-8') as f:
+                      f.write(new_readme)
+                  print('Cambios aplicados con éxito')
+              else:
+                  print('Etiquetas ausentes')
+          except Exception as e:
+              print(f'Error interno: {e}')
           "
 
       - name: Hacer Commit y Push de los cambios
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "🤖 Manteni
+          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "🤖 Mantenimiento: Tabla de proyectos actualizada" && git push)
