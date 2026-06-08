@@ -26,12 +26,12 @@ jobs:
         run: |
           python -c "
           import requests
+          import sys
 
           LANG_EMOJIS = {
               'Python': '🐍 Python',
               'Java': '☕ Java',
               'C': '⚙️ C',
-              'C++': '🧪 C++',
               'PHP': '🐘 PHP',
               'Go': '🐹 Go',
               'Shell': '🐚 Bash/Shell',
@@ -46,7 +46,11 @@ jobs:
 
           try:
               url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
-              repos = requests.get(url).json()
+              res = requests.get(url)
+              
+              # Forzar error si la API de GitHub responde mal (ej. Rate Limit)
+              res.raise_for_status()
+              repos = res.json()
               
               table = '\n| Proyecto | Tecnología | Descripción |\n| :--- | :---: | :--- |\n'
               for repo in repos:
@@ -56,7 +60,6 @@ jobs:
                   desc = repo['description'] if repo['description'] else 'Sin descripción.'
                   desc = desc.replace('\n', ' ').replace('\r', '').replace('|', '\\|')
                   
-                  # Si el lenguaje es C++, lo renombramos internamente para evitar conflictos con el diccionario
                   if lang == 'C++':
                       emoji = '🧪 C++'
                   else:
@@ -77,11 +80,16 @@ jobs:
                   new_readme = before + start + table + end + after
                   with open('README.md', 'w', encoding='utf-8') as f:
                       f.write(new_readme)
-                  print('Cambios aplicados con éxito')
+                  print('✅ REPLACE OK: Archivo README modificado en el entorno virtual.')
               else:
-                  print('Etiquetas ausentes')
+                  print('❌ ERROR: No se han encontrado las marcas exactas en el archivo README.md')
+                  print(f'¿Existe start?: {start in readme}')
+                  print(f'¿Existe end?: {end in readme}')
+                  sys.exit(1) # Forzamos que falle aquí para ver los prints en el log
+                  
           except Exception as e:
-              print(f'Error interno: {e}')
+              print(f'❌ EXCEPCIÓN CRÍTICA: {e}')
+              sys.exit(1)
           "
 
       - name: Hacer Commit y Push de los cambios
