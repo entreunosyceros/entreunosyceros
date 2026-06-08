@@ -22,6 +22,10 @@ He colaborado con personas, empresas y proyectos de distintos ámbitos mientras 
 
 ## 🧭 Últimos repositorios creados o modificados
 
+<!-- START_SECTION:github-stats -->
+*Cargando actividad reciente...*
+<!-- END_SECTION:github-stats -->
+
 ---
 
 ## 🚀 Qué hago
