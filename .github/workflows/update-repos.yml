@@ -31,11 +31,11 @@ jobs:
           import requests
           import os
           import sys
+          import re
 
+          # 1. Obtener los datos de GitHub
           url = 'https://api.github.com/users/entreunosyceros/repos?sort=pushed&per_page=5'
-          headers = {
-              "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"
-          }
+          headers = {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"}
           
           try:
               res = requests.get(url, headers=headers)
@@ -45,7 +45,8 @@ jobs:
               print(f"❌ Error al consultar la API de GitHub: {e}")
               sys.exit(1)
           
-          lines = [
+          # 2. Construir la tabla Markdown
+          table_lines = [
               '',
               '| Proyecto | Descripción |',
               '| :--- | :--- |'
@@ -54,37 +55,32 @@ jobs:
           for repo in repos:
               desc = repo['description'] if repo['description'] else 'Sin descripción.'
               desc = desc.replace('\n', ' ').replace('\r', '').replace('|', '\\|')
-              
-              name = repo['name']
-              html_url = repo['html_url']
-              
-              row = f"| [**{name}**]({html_url}) | {desc} |"
-              lines.append(row)
+              row = f"| [**{repo['name']}**]({repo['html_url']}) | {desc} |"
+              table_lines.append(row)
           
-          lines.append('')
-          content_string = '\n'.join(lines)
+          table_lines.append('')
+          table_content = '\n'.join(table_lines)
 
+          # 3. Leer el README actual
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
           
-          start_tag = ''
-          end_tag = ''
+          # LIMPIEZA PREVENTIVA: Si la tabla rota se quedó atrapada arriba del todo,
+          # la eliminamos usando expresiones regulares antes de proceder.
+          readme = re.sub(r'^\| Proyecto \| Descripción \|\s*\n\| :--- \| :--- \|\s*\n(?:\|.*\|\s*\n)*', '', readme)
+
+          # 4. Inyectar la tabla entre los marcadores correctos usando Regex
+          pattern = r'(<!-- LATEST-REPOS-START -->)(.*?)(<!-- LATEST-REPOS-END -->)'
           
-          if start_tag in readme and end_tag in readme:
-              start_index = readme.index(start_tag) + len(start_tag)
-              end_index = readme.index(end_tag)
-              
-              new_readme = (
-                  readme[:start_index]
-                  + content_string
-                  + readme[end_index:]
-              )
+          if re.search(pattern, readme, re.DOTALL):
+              # Reemplazamos el bloque central con nuestra tabla limpia
+              new_readme = re.sub(pattern, f"\\1{table_content}\\3", readme, flags=re.DOTALL)
               
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
-              print("✅ README modificado con éxito.")
+              print("✅ README modificado con éxito usando Regex.")
           else:
-              print(f"❌ Error: No se encontraron los marcadores {start_tag} o {end_tag}")
+              print("❌ Error crítico: No se encontraron las etiquetas <!-- LATEST-REPOS-START --> y <!-- LATEST-REPOS-END --> abajo.")
               sys.exit(1)
           PY
 
