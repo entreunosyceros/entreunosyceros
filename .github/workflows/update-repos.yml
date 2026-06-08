@@ -77,4 +77,4 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "🤖 Ma
+          git diff --quiet && git diff --staged --quiet || (git add README.md && git commit -m "🤖 Mantenimiento: Últimos repositorios actualizados" && git push)
