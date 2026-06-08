@@ -5,15 +5,18 @@ on:
     - cron: '0 0 * * *' # Cada 24 horas
   workflow_dispatch: # Ejecución manual
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      # Actualizado a la versión nativa que no requiere forzar Node
       - name: Checkout del repositorio
         uses: actions/checkout@v4.2.2
 
-      # Actualizado a la versión nativa compatible con el entorno actual
       - name: Configurar Python
         uses: actions/setup-python@v5.3.0
         with:
@@ -42,7 +45,7 @@ jobs:
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
           
-          pattern = r'(<!-- START_SECTION:github-stats -->)(.*?)(<!-- END_SECTION:github-stats -->)'
+          pattern = r'()(.*?)()'
           updated_readme = re.sub(pattern, f'\\1\n{content}\n\\3', readme, flags=re.DOTALL)
           
           with open('README.md', 'w', encoding='utf-8') as f:
