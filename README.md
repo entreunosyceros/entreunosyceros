@@ -81,8 +81,7 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 
 ### Desarrollo & Backend
 
-[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
-[![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=101010)]()
+[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://github.com/entreunosyceros?tab=repositories&q=&type=&language=python)[![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=101010)]()
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=101010)]()
 [![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge&logo=php&logoColor=white&labelColor=101010)]()
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=101010)]()
