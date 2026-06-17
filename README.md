@@ -102,10 +102,10 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**FarmaFlush**](https://github.com/entreunosyceros/FarmaFlush) | Verificador de precios oficiales (Nomenclátor) de farmacia y buscador de parafarmacia. Open Source para un consumo responsable. |
-| [**sudoraciones-propias**](https://github.com/entreunosyceros/sudoraciones-propias) | Gestión de 20 semanas de entrenamiento creado con Python y Streamlit |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Sin descripción. |
 | [**forja-de-ejercicios**](https://github.com/entreunosyceros/forja-de-ejercicios) | La máquina de ejercicios: genera ejercicios prácticos aleatorios, permite practicar en Docker y corrige automáticamente. |
+| [**FarmaFlush**](https://github.com/entreunosyceros/FarmaFlush) | Verificador de precios oficiales (Nomenclátor) de farmacia y buscador de parafarmacia. Open Source para un consumo responsable. |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Sin descripción. |
+| [**sudoraciones-propias**](https://github.com/entreunosyceros/sudoraciones-propias) | Gestión de 20 semanas de entrenamiento creado con Python y Streamlit |
 | [**fuGA**](https://github.com/entreunosyceros/fuGA) | Juego de evasión en terminal (C + ncurses): pájaro con gravedad, tuberías que avanzan, colisiones por rectángulos y puntuación |
 <!-- LATEST-REPOS-END -->
 
