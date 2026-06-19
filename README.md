@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**ejecutate**](https://github.com/entreunosyceros/ejecutate) | Un editor de código Python básico, pero con sus cosas, una arquitectura MVC y una interfaz creada con PySide6 |
+| [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**ejecutate**](https://github.com/entreunosyceros/ejecutate) | Un editor de código Python básico, pero con sus cosas, una arquitectura MVC y una interfaz creada con PySide6 |
 | [**forja-de-ejercicios**](https://github.com/entreunosyceros/forja-de-ejercicios) | La máquina de ejercicios: genera ejercicios prácticos aleatorios, permite practicar en Docker y corrige automáticamente. |
 | [**FarmaFlush**](https://github.com/entreunosyceros/FarmaFlush) | Verificador de precios oficiales (Nomenclátor) de farmacia y buscador de parafarmacia. Open Source para un consumo responsable. |
-| [**sudoraciones-propias**](https://github.com/entreunosyceros/sudoraciones-propias) | Gestión de 20 semanas de entrenamiento creado con Python y Streamlit |
 <!-- LATEST-REPOS-END -->
 
 ---
