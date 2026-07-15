@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**wifind**](https://github.com/entreunosyceros/wifind) | Analiza las redes WiFi disponibles en tu dispositivo, muestra la intensidad de señal en tiempo real y genera mapas de calor |
 | [**plantIA**](https://github.com/entreunosyceros/plantIA) | Aplicación web para identificar plantas a partir de fotografías usando Google Gemini. Guarda cada identificación en una base de datos local SQLite para consultarla después. |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**lefa**](https://github.com/entreunosyceros/lefa) |  Aplicación de escritorio para facturación de autónomos con control total local. |
 | [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
-| [**las-bases-y-sus-datos**](https://github.com/entreunosyceros/las-bases-y-sus-datos) | script para powershell con el que gestionar los servicios de bases de datos en Win2 |
 <!-- LATEST-REPOS-END -->
 
 ---
