@@ -102,9 +102,9 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**cestia**](https://github.com/entreunosyceros/cestia) | Aplicación **local** (Python + PySide6) para consultar precios de Mercadona y Carrefour, armar la cesta, guardar historial, alertas, estadísticas e IA opcional. |
 | [**wifind**](https://github.com/entreunosyceros/wifind) | Analiza las redes WiFi disponibles en tu dispositivo, muestra la intensidad de señal en tiempo real y genera mapas de calor |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**plantIA**](https://github.com/entreunosyceros/plantIA) | Aplicación web para identificar plantas a partir de fotografías usando Google Gemini. Guarda cada identificación en una base de datos local SQLite para consultarla después. |
 | [**lefa**](https://github.com/entreunosyceros/lefa) |  Aplicación de escritorio para facturación de autónomos con control total local. |
 <!-- LATEST-REPOS-END -->
