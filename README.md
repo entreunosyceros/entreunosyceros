@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**nos-vemos-o-que**](https://github.com/entreunosyceros/nos-vemos-o-que) | Cuestionario web reutilizable para proponer una cita. Sin frameworks ni build: HTML, CSS, JavaScript y PHP. |
+| [**cestia**](https://github.com/entreunosyceros/cestia) | Aplicación local (Python + PySide6) para consultar precios de Mercadona y Carrefour, armar la cesta, guardar historial, alertas, estadísticas e IA opcional. |
 | [**sudoraciones-propias**](https://github.com/entreunosyceros/sudoraciones-propias) | Gestión de 20 semanas de entrenamiento creado con Python y Streamlit |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
-| [**cestia**](https://github.com/entreunosyceros/cestia) | Aplicación **local** (Python + PySide6) para consultar precios de Mercadona y Carrefour, armar la cesta, guardar historial, alertas, estadísticas e IA opcional. |
 | [**wifind**](https://github.com/entreunosyceros/wifind) | Analiza las redes WiFi disponibles en tu dispositivo, muestra la intensidad de señal en tiempo real y genera mapas de calor |
-| [**plantIA**](https://github.com/entreunosyceros/plantIA) | Aplicación web para identificar plantas a partir de fotografías usando Google Gemini. Guarda cada identificación en una base de datos local SQLite para consultarla después. |
 <!-- LATEST-REPOS-END -->
 
 ---
