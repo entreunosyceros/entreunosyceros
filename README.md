@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**MDR**](https://github.com/entreunosyceros/MDR) | Fichero digital estilo Rolodex para gestionar alumnos de una escuela de música |
+| [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**MDR**](https://github.com/entreunosyceros/MDR) | Fichero digital estilo Rolodex para gestionar alumnos de una escuela de música |
 | [**fernandeando**](https://github.com/entreunosyceros/fernandeando) | Aplicación web de gestión de alumnos con operaciones CRUD. Usa Python (Flask) como backend, SQLite como base de datos y JavaScript en el navegador para la interfaz |
 | [**cestia**](https://github.com/entreunosyceros/cestia) | Aplicación local (Python + PySide6) para consultar precios de Mercadona y Carrefour, armar la cesta, guardar historial, alertas, estadísticas e IA opcional. |
-| [**nos-vemos-o-que**](https://github.com/entreunosyceros/nos-vemos-o-que) | Cuestionario web reutilizable para proponer una cita. Sin frameworks ni build: HTML, CSS, JavaScript y PHP. |
 <!-- LATEST-REPOS-END -->
 
 ---
