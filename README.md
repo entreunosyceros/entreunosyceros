@@ -102,8 +102,8 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**naverwarndo**](https://github.com/entreunosyceros/naverwarndo) | Navegador web ultra ligero basado en Rust + Tauri/Wry |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
 | [**MDR**](https://github.com/entreunosyceros/MDR) | Fichero digital estilo Rolodex para gestionar alumnos de una escuela de música |
 | [**fernandeando**](https://github.com/entreunosyceros/fernandeando) | Aplicación web de gestión de alumnos con operaciones CRUD. Usa Python (Flask) como backend, SQLite como base de datos y JavaScript en el navegador para la interfaz |
