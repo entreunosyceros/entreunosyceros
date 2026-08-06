@@ -102,9 +102,9 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**naverwarndo**](https://github.com/entreunosyceros/naverwarndo) | Navegador web ultra ligero basado en Rust + Tauri/Wry |
 | [**sqleando**](https://github.com/entreunosyceros/sqleando) | Aplicación educativa visual para aprender SQL y JDBC con Java. |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
 | [**MDR**](https://github.com/entreunosyceros/MDR) | Fichero digital estilo Rolodex para gestionar alumnos de una escuela de música |
 <!-- LATEST-REPOS-END -->
