@@ -102,10 +102,10 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**sqleando**](https://github.com/entreunosyceros/sqleando) | Aplicación educativa visual para aprender SQL y JDBC con Java. |
 | [**gwl**](https://github.com/entreunosyceros/gwl) | Aplicación de escritorio (Python + PySide6) para hablar con Google Gemini |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**naverwarndo**](https://github.com/entreunosyceros/naverwarndo) | Navegador web ultra ligero basado en Rust + Tauri/Wry |
-| [**sqleando**](https://github.com/entreunosyceros/sqleando) | Aplicación educativa visual para aprender SQL y JDBC con Java. |
 | [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
 <!-- LATEST-REPOS-END -->
 
