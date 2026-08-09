@@ -103,10 +103,10 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 | Proyecto | Descripción |
 | :--- | :--- |
 | [**sqleando**](https://github.com/entreunosyceros/sqleando) | Aplicación educativa visual para aprender SQL y JDBC con Java. |
-| [**gwl**](https://github.com/entreunosyceros/gwl) | Aplicación de escritorio (Python + PySide6) para hablar con Google Gemini |
+| [**dedoseandolaguitarra**](https://github.com/entreunosyceros/dedoseandolaguitarra) | App web para aprender guitarra eléctrica desde cero, en español, con pasos cortos y una progresión suave. |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**gwl**](https://github.com/entreunosyceros/gwl) | Aplicación de escritorio (Python + PySide6) para hablar con Google Gemini |
 | [**naverwarndo**](https://github.com/entreunosyceros/naverwarndo) | Navegador web ultra ligero basado en Rust + Tauri/Wry |
-| [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
 <!-- LATEST-REPOS-END -->
 
 ---
