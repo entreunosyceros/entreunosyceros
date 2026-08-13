@@ -102,9 +102,9 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**suerte-cilla**](https://github.com/entreunosyceros/suerte-cilla) | Aplicación Android para elegir un número al azar agitando el teléfono. |
 | [**radar-cito**](https://github.com/entreunosyceros/radar-cito) | Convierte la cámara de tu móvil en un radar óptico para medir la velocidad de coches, personas u objetos en movimiento. |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**sqleando**](https://github.com/entreunosyceros/sqleando) | Aplicación educativa visual para aprender SQL y JDBC con Java. |
 | [**dedoseandolaguitarra**](https://github.com/entreunosyceros/dedoseandolaguitarra) | App web para aprender guitarra eléctrica desde cero, en español, con pasos cortos y una progresión suave. |
 <!-- LATEST-REPOS-END -->
