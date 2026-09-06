@@ -102,9 +102,9 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**parkingometro**](https://github.com/entreunosyceros/parkingometro) | App Android en Flutter para buscar aparcamiento en Vigo: plazas libres en parkings públicos y una estimación orientativa de encontrar plaza en calle |
 | [**kidneysm3u**](https://github.com/entreunosyceros/kidneysm3u) | Reproductor de escritorio (Python/Tkinter + VLC) para listas M3U/IPTV, guía EPG y YouTube. Filtra listas grandes, busca vídeos, Shorts y canales, y descarga por URL. |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**cestia**](https://github.com/entreunosyceros/cestia) | Aplicación local (Python + PySide6) para consultar precios de Mercadona y Carrefour, armar la cesta, guardar historial, alertas, estadísticas e IA opcional. |
 | [**suerte-cilla**](https://github.com/entreunosyceros/suerte-cilla) | Aplicación Android para elegir un número al azar agitando el teléfono. |
 <!-- LATEST-REPOS-END -->
