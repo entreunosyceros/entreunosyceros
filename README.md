@@ -102,8 +102,8 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**launcherm3u**](https://github.com/entreunosyceros/launcherm3u) | Addon de vídeo en Python para cargar listas M3U (archivo local o URL) y opcionalmente una guía EPG XMLTV |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**launcherm3u**](https://github.com/entreunosyceros/launcherm3u) | Addon de vídeo en Python para cargar listas M3U (archivo local o URL) y opcionalmente una guía EPG XMLTV |
 | [**kidneysm3u**](https://github.com/entreunosyceros/kidneysm3u) | Reproductor de escritorio (Python/Tkinter + VLC) para listas M3U/IPTV, guía EPG y YouTube. Filtra listas grandes, busca vídeos, Shorts y canales, y descarga por URL. |
 | [**impresorante**](https://github.com/entreunosyceros/impresorante) | Detector y conector automático de impresoras de red |
 | [**parkingometro**](https://github.com/entreunosyceros/parkingometro) | App Android en Flutter para buscar aparcamiento en Vigo: plazas libres en parkings públicos y una estimación orientativa de encontrar plaza en calle |
