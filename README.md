@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
 | [**miptvga**](https://github.com/entreunosyceros/miptvga) | Pequeña aplicación Android para reproducir listas IPTV |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**kidneysm3u**](https://github.com/entreunosyceros/kidneysm3u) | Reproductor de escritorio (Python/Tkinter + VLC) para listas M3U/IPTV, guía EPG y YouTube. Filtra listas grandes, busca vídeos, Shorts y canales, y descarga por URL. |
 | [**launcherm3u**](https://github.com/entreunosyceros/launcherm3u) | Addon de vídeo en Python para cargar listas M3U (archivo local o URL) y opcionalmente una guía EPG XMLTV |
-| [**impresorante**](https://github.com/entreunosyceros/impresorante) | Detector y conector automático de impresoras de red |
 <!-- LATEST-REPOS-END -->
 
 ---
