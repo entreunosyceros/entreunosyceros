@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**reiniciacion**](https://github.com/entreunosyceros/reiniciacion) | Aplicación de escritorio para reiniciar tu router o restaurarlo a valores de fábrica sin abrir el navegador. |
 | [**miptvga**](https://github.com/entreunosyceros/miptvga) | Pequeña aplicación Android para reproducir listas IPTV |
-| [**the_pure_scene**](https://github.com/entreunosyceros/the_pure_scene) | The_Pure_Scene es una aplicación de escritorio creada con Python y Flet para quitar fondos de imágenes con  rembg |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**the_pure_scene**](https://github.com/entreunosyceros/the_pure_scene) | The_Pure_Scene es una aplicación de escritorio creada con Python y Flet para quitar fondos de imágenes con  rembg |
 | [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
-| [**kidneysm3u**](https://github.com/entreunosyceros/kidneysm3u) | Reproductor de escritorio (Python/Tkinter + VLC) para listas M3U/IPTV, guía EPG y YouTube. Filtra listas grandes, busca vídeos, Shorts y canales, y descarga por URL. |
 <!-- LATEST-REPOS-END -->
 
 ---
