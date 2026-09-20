@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**redimensionado**](https://github.com/entreunosyceros/redimensionado) | reDIMENSIONado redimensiona, recorta y convierte imágenes para publicar en web, desde el menú contextual de Nautilus |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**reiniciacion**](https://github.com/entreunosyceros/reiniciacion) | Aplicación de escritorio para reiniciar tu router o restaurarlo a valores de fábrica sin abrir el navegador. |
 | [**miptvga**](https://github.com/entreunosyceros/miptvga) | Pequeña aplicación Android para reproducir listas IPTV |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**the_pure_scene**](https://github.com/entreunosyceros/the_pure_scene) | The_Pure_Scene es una aplicación de escritorio creada con Python y Flet para quitar fondos de imágenes con  rembg |
-| [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
 <!-- LATEST-REPOS-END -->
 
 ---
