@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**dejalo**](https://github.com/entreunosyceros/dejalo) | Deshabitualización del tabaco |
 | [**forja-de-ejercicios**](https://github.com/entreunosyceros/forja-de-ejercicios) | La máquina de ejercicios: genera ejercicios prácticos aleatorios, permite practicar en Docker y corrige automáticamente. |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**redimensionado**](https://github.com/entreunosyceros/redimensionado) | reDIMENSIONado redimensiona, recorta y convierte imágenes para publicar en web, desde el menú contextual de Nautilus |
 | [**reiniciacion**](https://github.com/entreunosyceros/reiniciacion) | Aplicación de escritorio para reiniciar tu router o restaurarlo a valores de fábrica sin abrir el navegador. |
-| [**miptvga**](https://github.com/entreunosyceros/miptvga) | Pequeña aplicación Android para reproducir listas IPTV |
 <!-- LATEST-REPOS-END -->
 
 ---
