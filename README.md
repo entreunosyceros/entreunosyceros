@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**the_pure_scene**](https://github.com/entreunosyceros/the_pure_scene) | The_Pure_Scene es una aplicación de escritorio creada con Python y Flet para quitar fondos de imágenes con  rembg |
+| [**aspirando-kodi**](https://github.com/entreunosyceros/aspirando-kodi) | Pequeño add-on para Kodi con el que gestionar el buffering y la limpieza de Kodi ... y más cosas  |
 | [**dejalo**](https://github.com/entreunosyceros/dejalo) | Deshabitualización del tabaco |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**forja-de-ejercicios**](https://github.com/entreunosyceros/forja-de-ejercicios) | La máquina de ejercicios: genera ejercicios prácticos aleatorios, permite practicar en Docker y corrige automáticamente. |
-| [**redimensionado**](https://github.com/entreunosyceros/redimensionado) | reDIMENSIONado redimensiona, recorta y convierte imágenes para publicar en web, desde el menú contextual de Nautilus |
-| [**reiniciacion**](https://github.com/entreunosyceros/reiniciacion) | Aplicación de escritorio para reiniciar tu router o restaurarlo a valores de fábrica sin abrir el navegador. |
 <!-- LATEST-REPOS-END -->
 
 ---
