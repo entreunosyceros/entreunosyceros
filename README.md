@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**launcherm3u**](https://github.com/entreunosyceros/launcherm3u) | Addon de vídeo en Python para cargar listas M3U (archivo local o URL) y opcionalmente una guía EPG XMLTV |
 | [**aspirando-kodi**](https://github.com/entreunosyceros/aspirando-kodi) | Pequeño add-on para Kodi con el que gestionar el buffering y la limpieza de Kodi ... y más cosas  |
 | [**the_pure_scene**](https://github.com/entreunosyceros/the_pure_scene) | The_Pure_Scene es una aplicación de escritorio creada con Python y Flet para quitar fondos de imágenes con  rembg |
-| [**dejalo**](https://github.com/entreunosyceros/dejalo) | Deshabitualización del tabaco |
 <!-- LATEST-REPOS-END -->
 
 ---
