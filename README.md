@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**gifteando**](https://github.com/entreunosyceros/gifteando) | Aplicación de escritorio para buscar GIFs animados gratuitos, verlos y guardarlos en el equipo |
+| [**dinquechove**](https://github.com/entreunosyceros/dinquechove) | Programa en Python para consultar la API Open-Meteo sin clave API |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**sudoraciones-propias**](https://github.com/entreunosyceros/sudoraciones-propias) | Gestión de 20 semanas de entrenamiento creado con Python y Streamlit |
 | [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
-| [**asist1d0**](https://github.com/entreunosyceros/asist1d0) | Sistema de gestión de incidencias y equipos (mini Help Desk) en Python. |
-| [**launcherm3u**](https://github.com/entreunosyceros/launcherm3u) | Addon de vídeo en Python para cargar listas M3U (archivo local o URL) y opcionalmente una guía EPG XMLTV |
 <!-- LATEST-REPOS-END -->
 
 ---
