@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**linea-c3-po**](https://github.com/entreunosyceros/linea-c3-po) | Atlas horario de la línea C3 de Vitrasa en Vigo |
 | [**sudoraciones-propias**](https://github.com/entreunosyceros/sudoraciones-propias) | Gestión de 20 semanas de entrenamiento creado con Python y Streamlit |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
 | [**gifteando**](https://github.com/entreunosyceros/gifteando) | Aplicación de escritorio para buscar GIFs animados gratuitos, verlos y guardarlos en el equipo |
-| [**dinquechove**](https://github.com/entreunosyceros/dinquechove) | Programa en Python para consultar la API Open-Meteo sin clave API |
 <!-- LATEST-REPOS-END -->
 
 ---
