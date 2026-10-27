@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
+| [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**escribe-chanchi**](https://github.com/entreunosyceros/escribe-chanchi) | Esto es un pequeño editor de archivos .markdown, .md o m3u |
 | [**linea-c3-po**](https://github.com/entreunosyceros/linea-c3-po) | Atlas horario de la línea C3 de Vitrasa en Vigo |
-| [**sudoraciones-propias**](https://github.com/entreunosyceros/sudoraciones-propias) | Gestión de 20 semanas de entrenamiento creado con Python y Streamlit |
-| [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
 <!-- LATEST-REPOS-END -->
 
 ---
