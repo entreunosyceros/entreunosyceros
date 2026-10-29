@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**mojandoselosdedosconsql**](https://github.com/entreunosyceros/mojandoselosdedosconsql) | Aplicación local que explica una sentencias  PostgreSQL, MySQL, SQLite y SQL Server en español.  |
+| [**ANOtaciones**](https://github.com/entreunosyceros/ANOtaciones) | Espacio local tipo Notion para notas, tableros Kanban y bases de datos. Todo corre en el navegador: sin backend ni cuenta. |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**mojandoselosdedosconsql**](https://github.com/entreunosyceros/mojandoselosdedosconsql) | Aplicación local que explica una sentencias  PostgreSQL, MySQL, SQLite y SQL Server en español.  |
 | [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
 | [**PyQorreos**](https://github.com/entreunosyceros/PyQorreos) | Gestor de correo electrónico con interfaz gráfica en Python y PySide6 |
-| [**escribe-chanchi**](https://github.com/entreunosyceros/escribe-chanchi) | Esto es un pequeño editor de archivos .markdown, .md o m3u |
 <!-- LATEST-REPOS-END -->
 
 ---
