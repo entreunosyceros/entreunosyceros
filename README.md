@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**naverwarndo**](https://github.com/entreunosyceros/naverwarndo) | Navegador web ultra ligero basado en Rust + Tauri/Wry |
 | [**aspirando-kodi**](https://github.com/entreunosyceros/aspirando-kodi) | Pequeño add-on para Kodi con el que gestionar el buffering y la limpieza de Kodi ... y más cosas  |
 | [**launcherm3u**](https://github.com/entreunosyceros/launcherm3u) | Addon de vídeo en Python para cargar listas M3U (archivo local o URL) y opcionalmente una guía EPG XMLTV |
 | [**ANOtaciones**](https://github.com/entreunosyceros/ANOtaciones) | Espacio local tipo Notion para notas, tableros Kanban y bases de datos. Todo corre en el navegador: sin backend ni cuenta. |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 <!-- LATEST-REPOS-END -->
 
 ---
