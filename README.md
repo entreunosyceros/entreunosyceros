@@ -102,9 +102,9 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
+| [**reVERSEando**](https://github.com/entreunosyceros/reVERSEando) | gemera un prompt de desarrollo en español a partir de un repositorio público de github o de una web |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**the_pure_scene**](https://github.com/entreunosyceros/the_pure_scene) | The_Pure_Scene es una aplicación de escritorio creada con Python y Flet para quitar fondos de imágenes con  rembg |
-| [**reVERSEando**](https://github.com/entreunosyceros/reVERSEando) | gemera un prompt de desarrollo en español a partir de un repositorio público de github o de una web |
 | [**naverwarndo**](https://github.com/entreunosyceros/naverwarndo) | Navegador web ultra ligero basado en Rust + Tauri/Wry |
 | [**aspirando-kodi**](https://github.com/entreunosyceros/aspirando-kodi) | Pequeño add-on para Kodi con el que gestionar el buffering y la limpieza de Kodi ... y más cosas  |
 <!-- LATEST-REPOS-END -->
