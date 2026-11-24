@@ -102,11 +102,11 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
+| [**powerShEj**](https://github.com/entreunosyceros/powerShEj) | powerShej |
 | [**tesigno**](https://github.com/entreunosyceros/tesigno) | Aplicación Android para pasar una expresión común a LSE |
+| [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**miptvga**](https://github.com/entreunosyceros/miptvga) | Pequeña aplicación Android para reproducir listas IPTV |
 | [**manten1d0**](https://github.com/entreunosyceros/manten1d0) | Nueva versión del programa de mentenimiento básico para Ubuntu. Creado con Python 3.10.12 |
-| [**reVERSEando**](https://github.com/entreunosyceros/reVERSEando) | gemera un prompt de desarrollo en español a partir de un repositorio público de github o de una web |
 <!-- LATEST-REPOS-END -->
 
 ---
