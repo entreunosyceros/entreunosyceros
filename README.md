@@ -102,7 +102,7 @@ Durante estos años he terminado utilizando tecnologías muy distintas para adap
 <!-- LATEST-REPOS-START -->
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**shell**](https://github.com/entreunosyceros/shell) | shelleando |
+| [**csvfile**](https://github.com/entreunosyceros/csvfile) | Sin descripción. |
 | [**entreunosyceros**](https://github.com/entreunosyceros/entreunosyceros) | Perfil de usuario |
 | [**tesigno**](https://github.com/entreunosyceros/tesigno) | Aplicación Android para pasar una expresión común a LSE |
 | [**miptvga**](https://github.com/entreunosyceros/miptvga) | Pequeña aplicación Android para reproducir listas IPTV |
